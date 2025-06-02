@@ -1,6 +1,6 @@
 from pyrogram.errors.exceptions.bad_request_400 import StickerEmojiInvalid
 import requests
-import m3u8
+import .exe
 import json
 import subprocess
 from pyrogram import Client, filters
