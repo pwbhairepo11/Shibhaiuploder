@@ -41,18 +41,18 @@ photo = "photo.jpg"
 
 #Bot Created by @NtrRazYt
 # Define the owner ID
-owner_id = 961916589
+owner_id = 6977768796
 
 # Initialize bot with environment variables
 bot1 = Client(
     "bot1",
-    bot_token="7865388589:AAGcACcQOamP7oEQUy6LB_shtXPJCYavPq8",
-    api_id=20407127,
-    api_hash="877e7db614293fb2d7c5e4caa79896f7"
+    bot_token="8179018409:AAFJXakzOiUGV2QNBg-ZfmAAWShJhC2ifc4",
+    api_id=28460032,
+    api_hash="1457c3ba64719a1e442aae67217b67c2"
 )
 
 # List to store authorized users
-authorized_users = []
+authorized_users = [6977768796]
 
 cookies_file_path = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
 
@@ -619,11 +619,11 @@ async def account_login(bot: Client, m: Message):
 
 
 #-------------:::-----------------:::::--------------------::::::------------------------------------------------:::::-------------------------------
-OWNER2 = int(os.environ.get("OWNER2", 961916589))
+OWNER2 = int(os.environ.get("OWNER2", 6977768796))
 
 try: 
     ADMINS = [] 
-    for x in (os.environ.get("ADMINS", "961916589 7202205952").split()):  
+    for x in (os.environ.get("ADMINS", "6977768796, 6977768796").split()):  
         ADMINS.append(int(x)) 
 except ValueError: 
     raise Exception("Your Admins list does not contain valid integers.") 
